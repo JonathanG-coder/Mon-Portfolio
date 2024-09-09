@@ -1,18 +1,23 @@
 export const studies = [
   {
-    title: "Técnico en desarrollo de software",
-    corporation: "SENA - Montería (Córdoba) ",
-    date: "02/2019 – 12/2019",
+    title: "Bootcamp concepteur développeur d'applcation ",
+    date: "03/2024 – 07/2024",
   },
   {
-    title: "Desarrollador Front-end React Js",
-    corporation: "Alura Latam - Remoto",
-    date: "04/2023 – 09/2023",
+    title: "Gérer un projet en mobilisant les méthodes agiles",
+    date: "2024",
   },
   {
-    title: "Curso profesional de React Js",
-    corporation: "Código facilito - Remoto",
-    date: "04/2023 – 04/2023",
+    title: "Entrepreneur numérique CMS Wordpress",
+    date: "2023",
+  },
+  {
+    title: "Bachelier Concepteur Développeur de Solution Digitales",
+    date: "2022 – 2023",
+  },
+  {
+    title: "Bachelier en Soins Infirmiers",
+    date: "2015 – 2022",
   },
 ];
 
@@ -22,22 +27,11 @@ export const IconKeys = {
   javaScript: "javaScript",
   react: "react",
   astro: "astro",
-  materialUi: "materialUi",
-  nextjs: "nextjs",
-  redux: "redux",
-  styled: "styled",
-  tailwind: "tailwind",
-  radix: "radix",
-  reactQuery: "reactQuery",
   typeScript: "typeScript",
-  zustand: "zustand",
   git: "git",
   github: "github",
-  stripe: "stripe",
-  shadcn: "shadcn",
   nodejs: "nodejs",
-  mongodb: "mongodb",
-  vite: "vite",
+
   // here add more icon keys
 };
 
@@ -58,18 +52,12 @@ export const skills = [
     title: "Astro",
     icon: IconKeys.astro,
   },
-  {
-    title: "Tailwindcss",
-    icon: IconKeys.tailwind,
-  },
+ 
   {
     title: "React Js",
     icon: IconKeys.react,
   },
-  {
-    title: "Next Js",
-    icon: IconKeys.nextjs,
-  },
+
   {
     title: "Git",
     icon: IconKeys.git,
@@ -79,19 +67,7 @@ export const skills = [
     title: "Github",
     icon: IconKeys.github,
   },
-  {
-    title: "Material UI",
-    icon: IconKeys.materialUi,
-  },
-
-  {
-    title: "Redux Js",
-    icon: IconKeys.redux,
-  },
-  {
-    title: "Styled Components",
-    icon: IconKeys.styled,
-  },
+ 
   {
     title: "Node Js",
     icon: IconKeys.nodejs,
@@ -99,32 +75,6 @@ export const skills = [
   {
     title: "TypeScript",
     icon: IconKeys.typeScript,
-  },
-  {
-    title: "Radix UI",
-    icon: IconKeys.radix,
-  },
-
-  {
-    title: "React Query",
-    icon: IconKeys.reactQuery,
-  },
-  {
-    title: "Vite",
-    icon: IconKeys.vite,
-  },
-  {
-    title: "Zustand",
-    icon: IconKeys.zustand,
-  },
-
-  {
-    title: "Shadcn UI",
-    icon: IconKeys.shadcn,
-  },
-  {
-    title: "Mongo Db",
-    icon: IconKeys.mongodb,
   },
 ];
 

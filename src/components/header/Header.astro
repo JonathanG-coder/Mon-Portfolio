@@ -1,35 +1,35 @@
 <header class="header">
-  <h1 id="inicio">Portafolio</h1>
+  <h1 id="start">Portfolio</h1>
   <nav class="nav">
     <ul class="ul-nav">
-      <a href="#inicio">
-        <li class="li-nav">Inicio</li>
+      <a href="#start">
+        <li class="li-nav">Profil</li>
       </a>
 
-      <a href="#proyectos">
-        <li class="li-nav">Proyectos</li>
+      <a href="#projets">
+        <li class="li-nav">Projets</li>
       </a>
 
       <a href="#skills">
-        <li class="li-nav">Habilidades</li>
+        <li class="li-nav">Compétences</li>
       </a>
-      <a href="#estudios">
-        <li class="li-nav">Estudios</li>
+      <a href="#etudes">
+        <li class="li-nav">Etudes</li>
       </a>
       <a href="#sobremi">
-        <li class="li-nav">Sobre mi</li>
+        <li class="li-nav">Sur moi</li>
       </a>
 
-      <a href="#contacto">
-        <li class="li-nav">Contacto</li>
+      <a href="#contact">
+        <li class="li-nav">Contact</li>
       </a>
     </ul>
   </nav>
   <div class="container-bnt-menu">
     <div class="btn-menu">
-      <span class="linea-menu" id="linea1"></span>
-      <span class="linea-menu" id="linea2"></span>
-      <span class="linea-menu" id="linea3"></span>
+      <span class="ligne-menu" id="ligne1"></span>
+      <span class="ligne-menu" id="ligne2"></span>
+      <span class="ligne-menu" id="ligne3"></span>
     </div>
   </div>
 
@@ -39,22 +39,22 @@
     const $menu = document.querySelector(".nav");
     const $menuDrop = document.querySelector(".menu-drop");
     const $btnmenu = document.querySelector(".btn-menu");
-    const $linea1 = document.querySelector("#linea1");
-    const $linea2 = document.querySelector("#linea2");
-    const $linea3 = document.querySelector("#linea3");
+    const $linea1 = document.querySelector("#ligne1");
+    const $linea2 = document.querySelector("#ligne2");
+    const $linea3 = document.querySelector("#ligne3");
     $btnmenu.addEventListener("click", () => {
-      $linea1.classList.toggle("activelinea1__bars-menu");
-      $linea2.classList.toggle("activelinea2__bars-menu");
-      $linea3.classList.toggle("activelinea3__bars-menu");
-      $menu.classList.toggle("menu-activado");
+      $linea1.classList.toggle("activeligne1__bars-menu");
+      $linea2.classList.toggle("activeligne2__bars-menu");
+      $linea3.classList.toggle("activeligne3__bars-menu");
+      $menu.classList.toggle("menu-activer");
       $menuDrop.classList.toggle("activa-menu-drop");
     });
 
     $menuDrop.addEventListener("click", () => {
-      $linea1.classList.toggle("activelinea1__bars-menu");
-      $linea2.classList.toggle("activelinea2__bars-menu");
-      $linea3.classList.toggle("activelinea3__bars-menu");
-      $menu.classList.toggle("menu-activado");
+      $linea1.classList.toggle("activeligne1__bars-menu");
+      $linea2.classList.toggle("activeligne2__bars-menu");
+      $linea3.classList.toggle("activeligne3__bars-menu");
+      $menu.classList.toggle("menu-activer");
       $menuDrop.classList.toggle("activa-menu-drop");
     });
   </script>

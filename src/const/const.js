@@ -130,199 +130,87 @@ export const skills = [
 
 export const projects = [
   {
-    img: "../../../img/tasks-manager.webp",
-    title: "Tasks Manager",
-    link: "https://task-manager-ecru-chi.vercel.app/dashboard",
-    description: `Administrador de tareas con drag and drop autenticación con Clerk , shadcn.  "En Desarrollo "`,
+    img: "../../../img/E-Sport2.png",
+    title: "E-Sport",
+    link: "https://github.com/JonathanG-coder/E-sport",
+    description: `Présentation d'équipes de e-sports avec leurs joueurs, leur staff, et le jeu auquel ils participent.`,
     technologies: [
       {
         icon: IconKeys.typeScript,
       },
-      {
-        icon: IconKeys.nextjs,
-      },
-      {
-        icon: IconKeys.tailwind,
-      },
-      {
-        icon: IconKeys.zustand,
-      },
-      {
-        icon: IconKeys.shadcn,
-      },
     ],
   },
   {
-    img: "../../../img/ecommerce-stripe-2.webp",
-    title: "Ecommerce Stripe",
-    link: "https://ecommerce-stripe-763m.vercel.app/",
-    description: `Proyecto FullStack de un ecommerce con pasarela de pagos stripe integrada, destalles de el product etc.  `,
+    img: "../../../img/Courses-Equestres.png",
+    title: "Courses-Equestres",
+    link: "https://github.com/JonathanG-coder/Course-Equestre",
+    description: `Courses de chevaux sous Angular TypeScript.  `,
     technologies: [
       {
         icon: IconKeys.typeScript,
       },
-      {
-        icon: IconKeys.nextjs,
-      },
-      {
-        icon: IconKeys.tailwind,
-      },
-      {
-        icon: IconKeys.mongodb,
-      },
-      {
-        icon: IconKeys.stripe,
-      },
     ],
   },
   {
-    img: "../../../img/nexanime.webp",
-    title: "NexAnime",
-    link: "https://nexanime.vercel.app",
-    description: `plataforma de anime para ver los animes en tendencia , más valorados , estadísticas.`,
+    img: "../../../img/Divers&Shop.png",
+    title: "Divers & Shop",
+    link: "https://github.com/JonathanG-coder/Divers-E-shop",
+    description: `Une boutique qui présente des articles avec possibilité d'ajouter et supprimer du panier.`,
     technologies: [
       {
         icon: IconKeys.typeScript,
       },
-      {
-        icon: IconKeys.nextjs,
-      },
-      {
-        icon: IconKeys.tailwind,
-      },
     ],
   },
   {
-    img: "../../../img/store-games.webp",
-    title: "Store games",
-    link: "https://store-games-site.netlify.app/",
-    description: `Simulando una página de juegos , consumiendo la API de rawg api
-      donde los usuarios pueden buscar videojuegos, ver sus detalles como
-      creadores , calificaciones,tiendas donde comprar.....`,
+    img: "../../../img/Application Meteo.png",
+    title: "Application Meteo",
+    link: "https://github.com/JonathanG-coder/Application-meteo-web",
+    description: `application Web simple pour vérifier l'état météorologique actuel`,
     technologies: [
-      {
-        icon: IconKeys.react,
-      },
       {
         icon: IconKeys.css,
       },
       {
         icon: IconKeys.javaScript,
       },
-      {
-        icon: IconKeys.tailwind,
-      },
-      {
-        icon: IconKeys.reactQuery,
-      },
+
     ],
   },
   {
-    img: "../../../img/movie.webp",
-    title: "Movie Tv",
-    link: "https://movietvsite.netlify.app/",
-    description: `simulando una página de películas , consumiendo la API de themovietv
-              donde los usuarios pueden buscar películas y ver trailer.....`,
+    img: "../../../img/Baionako-ikastolak.png",
+    title: "Baionako-Ikastolak",
+    link: "https://github.com/JonathanG-coder/Baionako-Ikastolak-",
+    description: `Création d'un site web pour les Ikastola de Bayonne`,
     technologies: [
       {
         icon: IconKeys.react,
       },
-      {
-        icon: IconKeys.css,
-      },
-      {
-        icon: IconKeys.javaScript,
-      },
-      {
-        icon: IconKeys.tailwind,
-      },
+
     ],
   },
   {
-    img: "../../../img/cyberpunk.webp",
-    title: "cyberpunk",
-    link: "https://preeminent-liger-266356.netlify.app/",
-    description: `este proyecto se trata de un clon de la pagína de cyberpunk , donde
-      el ususario puede ver los tailer de él juegos y también los
-      episodios de la serie....`,
+    img: "../../../img/Maze.png",
+    title: "Maze",
+    link: "https://github.com/JonathanG-coder/Maze",
+    description: `Réalisation d'un labyrinthe dans Unity en utilisant C#`,
     technologies: [
       {
         icon: IconKeys.html,
       },
-      {
-        icon: IconKeys.css,
-      },
-      {
-        icon: IconKeys.javaScript,
-      },
     ],
   },
 
   {
-    img: "../../../img/fit-nation.webp",
-    title: "gym",
-    link: "https://fitnation.netlify.app/",
-    description: `landing page de una gym por ahora es una landing todavia está en
-              desarrollo la idea es que los usuarios puedan comprar productos de
-              el gym`,
+    img: "../../../img/Angry B.png",
+    title: "Angry Birds",
+    link: "https://github.com/JonathanG-coder/Angry-Mexicano-Birds",
+    description: `Réalisation d'un projet Angry Birds dans Unity en utilisant C#`,
     technologies: [
       {
         icon: IconKeys.react,
       },
-      {
-        icon: IconKeys.css,
-      },
-      {
-        icon: IconKeys.javaScript,
-      },
-      {
-        icon: IconKeys.tailwind,
-      },
-    ],
-  },
-  {
-    img: "../../../img/spotify.webp",
-    title: "Spotify-Clone",
-    link: "https://www.linkedin.com/posts/osnaider-mart%C3%ADnez_clon-de-la-p%C3%A1gina-de-spotify-echo-con-react-activity-7119712602342965248-upgL?utm_source=share&utm_medium=member_desktop",
-    description: `Clon de la página de Spotify con autenticación de usuario, reproductor de canciones, etc `,
-    technologies: [
-      {
-        icon: IconKeys.react,
-      },
-      {
-        icon: IconKeys.javaScript,
-      },
-      {
-        icon: IconKeys.tailwind,
-      },
-      {
-        icon: IconKeys.redux,
-      },
-      {
-        icon: IconKeys.reactQuery,
-      },
-    ],
-  },
 
-  {
-    img: "../../../img/landing.webp",
-    title: "Landing Realidad Virtual",
-    link: "https://realityvirtual.netlify.app/",
-    description: `landing page de gafas de realidad virtual donde se muestra el
-              producto y como funciona`,
-    technologies: [
-      {
-        icon: IconKeys.astro,
-      },
-      {
-        icon: IconKeys.css,
-      },
-      {
-        icon: IconKeys.javaScript,
-      },
-      {
-        icon: IconKeys.tailwind,
-      },
     ],
   },
 ];

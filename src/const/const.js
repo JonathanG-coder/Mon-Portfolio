@@ -31,11 +31,16 @@ export const IconKeys = {
   git: "git",
   github: "github",
   nodejs: "nodejs",
+  angular: "angular",
 
   // here add more icon keys
 };
 
 export const skills = [
+  {
+    title: "Angular",
+    icon: IconKeys.angular
+  },
   {
     title: "Html",
     icon: IconKeys.html,
@@ -52,22 +57,18 @@ export const skills = [
     title: "Astro",
     icon: IconKeys.astro,
   },
- 
   {
     title: "React Js",
     icon: IconKeys.react,
   },
-
   {
     title: "Git",
     icon: IconKeys.git,
   },
-
   {
     title: "Github",
     icon: IconKeys.github,
   },
- 
   {
     title: "Node Js",
     icon: IconKeys.nodejs,
@@ -87,6 +88,9 @@ export const projects = [
     technologies: [
       {
         icon: IconKeys.typeScript,
+      },
+      {
+        icon: IconKeys.angular,
       },
     ],
   },

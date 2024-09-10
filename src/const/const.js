@@ -32,15 +32,14 @@ export const IconKeys = {
   github: "github",
   nodejs: "nodejs",
   angular: "angular",
+  wordpress: "wordpress",
+  unity: "unity",
+  c: "c",
 
   // here add more icon keys
 };
 
 export const skills = [
-  {
-    title: "Angular",
-    icon: IconKeys.angular
-  },
   {
     title: "Html",
     icon: IconKeys.html,
@@ -54,12 +53,16 @@ export const skills = [
     icon: IconKeys.javaScript,
   },
   {
-    title: "Astro",
-    icon: IconKeys.astro,
+    title: "TypeScript",
+    icon: IconKeys.typeScript,
   },
   {
-    title: "React Js",
-    icon: IconKeys.react,
+    title: "Angular",
+    icon: IconKeys.angular
+  },
+  {
+    title: "Astro",
+    icon: IconKeys.astro,
   },
   {
     title: "Git",
@@ -70,12 +73,24 @@ export const skills = [
     icon: IconKeys.github,
   },
   {
+    title: "React Js",
+    icon: IconKeys.react,
+  },
+  {
     title: "Node Js",
     icon: IconKeys.nodejs,
   },
   {
-    title: "TypeScript",
-    icon: IconKeys.typeScript,
+    title: "Wordpress",
+    icon: IconKeys.wordpress,
+  },
+  {
+    title: "Unity",
+    icon: IconKeys.unity,
+  },
+  {
+    title: "C",
+    icon: IconKeys.c,
   },
 ];
 
@@ -103,6 +118,9 @@ export const projects = [
       {
         icon: IconKeys.typeScript,
       },
+      {
+        icon: IconKeys.angular,
+      },
     ],
   },
   {
@@ -114,6 +132,9 @@ export const projects = [
       {
         icon: IconKeys.typeScript,
       },
+      {
+        icon: IconKeys.angular,
+      },
     ],
   },
   {
@@ -122,6 +143,9 @@ export const projects = [
     link: "https://github.com/JonathanG-coder/Application-meteo-web",
     description: `application Web simple pour vérifier l'état météorologique actuel`,
     technologies: [
+      {
+        icon: IconKeys.html,
+      },
       {
         icon: IconKeys.css,
       },
@@ -138,9 +162,8 @@ export const projects = [
     description: `Création d'un site web pour les Ikastola de Bayonne`,
     technologies: [
       {
-        icon: IconKeys.react,
+        icon: IconKeys.wordpress,
       },
-
     ],
   },
   {
@@ -150,7 +173,10 @@ export const projects = [
     description: `Réalisation d'un labyrinthe dans Unity en utilisant C#`,
     technologies: [
       {
-        icon: IconKeys.html,
+        icon: IconKeys.unity,
+      },
+      {
+        icon: IconKeys.c,
       },
     ],
   },
@@ -162,7 +188,10 @@ export const projects = [
     description: `Réalisation d'un projet Angry Birds dans Unity en utilisant C#`,
     technologies: [
       {
-        icon: IconKeys.react,
+        icon: IconKeys.unity,
+      },
+      {
+        icon: IconKeys.c,
       },
 
     ],

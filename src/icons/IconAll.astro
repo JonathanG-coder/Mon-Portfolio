@@ -1,4 +1,3 @@
----
 import IconAstro from "./IconAstro.astro";
 import IconTypeScript from "./IconTypeScript.astro";
 import IconHtml from "./IconHtml.astro";
@@ -12,8 +11,6 @@ import IconAngular from "./IconAngular.astro";
 import IconWordpress from "./IconWordpress.astro";
 import IconUnity from "./IconUnity.astro";
 import IconC from "./IconC.astro";
-
-
 
 export const ICONS = {
   html: IconHtml,
@@ -29,12 +26,10 @@ export const ICONS = {
   wordpress: IconWordpress,
   unity: IconUnity,
   c: IconC,
-  // add new icons here <--
-  // Make sure that when calling the icon the key is the same
+  // add new icons here <-- Make sure that when calling the icon the key is the same
   // "optional" in the IconKeys const file adds the icon key for when you call IconKeys.nameIcon
 };
 
 export function getIconComponent(iconName: string) {
   return ICONS[iconName] || null;
 }
----

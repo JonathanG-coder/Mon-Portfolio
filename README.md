@@ -1,6 +1,6 @@
 # Mon Port folio
 
-Voici mon Portfolio réalié sous TypeScript avec Astro.
+Voici mon Portfolio réalisé sous TypeScript avec Astro.
 
 
 # Astro Starter Kit: Minimal

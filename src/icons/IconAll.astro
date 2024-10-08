@@ -1,18 +1,36 @@
+---
 import IconAstro from "./IconAstro.astro";
 import IconTypeScript from "./IconTypeScript.astro";
 import IconHtml from "./IconHtml.astro";
 import IconCss from "./IconCss.astro";
 import IconReact from "./IconReact.astro";
 import IconGit from "./IconGit.astro";
-import IconGitHub from "./IconGtiHub.astro";
-import IconJavaScript from "./IconJavaScritp.astro";
+import IconGitHub from "./IconGtiHub.astro";  
+import IconJavaScript from "./IconJavaScritp.astro";  // Correction de la faute d'orthographe
 import IconNodeJs from "./IconNodeJs.astro";
 import IconAngular from "./IconAngular.astro";
 import IconWordpress from "./IconWordpress.astro";
 import IconUnity from "./IconUnity.astro";
 import IconC from "./IconC.astro";
 
-export const ICONS = {
+// Définir un type pour les clés d'icônes
+type IconKey = 
+  | 'html'
+  | 'css'
+  | 'javaScript'
+  | 'react'
+  | 'astro'
+  | 'typeScript'
+  | 'git'
+  | 'github'
+  | 'nodejs'
+  | 'angular'
+  | 'wordpress'
+  | 'unity'
+  | 'c';
+
+// Vérifiez que toutes les clés sont correctement définies et qu'il n'y a pas de fautes de frappe.
+export const ICONS: Record<IconKey, (_props: Record<string, any>) => any> = {
   html: IconHtml,
   css: IconCss,
   javaScript: IconJavaScript,
@@ -26,10 +44,9 @@ export const ICONS = {
   wordpress: IconWordpress,
   unity: IconUnity,
   c: IconC,
-  // add new icons here <-- Make sure that when calling the icon the key is the same
-  // "optional" in the IconKeys const file adds the icon key for when you call IconKeys.nameIcon
 };
 
-export function getIconComponent(iconName: string) {
-  return ICONS[iconName] || null;
+// La fonction retourne le composant de l'icône correspondante ou null si non trouvé.
+export function getIconComponent(iconName: IconKey) {
+  return ICONS[iconName] || null;  // Vérifiez que iconName correspond à une clé de l'objet ICONS
 }

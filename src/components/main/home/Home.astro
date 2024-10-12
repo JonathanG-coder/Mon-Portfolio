@@ -6,7 +6,7 @@ import photoprofil from "../../../../public/img/photo-profil.png";
 <div class="content-presentation">
   <div class="linear-gradient-2"></div>
   <div class="linear-gradient-1"></div>
-  <div class="container-presentation"> <!-- Correction du nom de la classe -->
+  <div class="container-presentation"> 
     <div class="container-text">
       <h2 class="text-name">GAGER Jonathan</h2>
       <div class="container-profession">
@@ -77,14 +77,14 @@ import photoprofil from "../../../../public/img/photo-profil.png";
           <Image src={photoprofil} alt="GAGER Jonathan" id="start" />
         </picture>
       </div>
-    </div>
-  </div> <!-- Correction du nom de la classe -->
+    </div>    
+  </div> 
 </div>
 
 <script>
   const letters = document.querySelectorAll(".p-profession");
   letters.forEach((letter) => {
-    // Type Assertion pour indiquer que letter est un HTMLElement
+   
     const htmlLetter = letter as HTMLElement; 
 
     htmlLetter.addEventListener("mouseenter", () => {
@@ -136,7 +136,7 @@ import photoprofil from "../../../../public/img/photo-profil.png";
   }
 
   .container-presentation {
-    position: relative;  /* Correction ici pour aligner avec le nom de classe */
+    position: relative; 
     display: flex;
     flex-direction: row;
     padding: 50px 0;

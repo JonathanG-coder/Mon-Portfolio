@@ -46,7 +46,7 @@ export const ICONS: Record<IconKey, (_props: Record<string, any>) => any> = {
   c: IconC,
 };
 
-// La fonction retourne le composant de l'icône correspondante ou null si non trouvé.
+
 export function getIconComponent(iconName: IconKey) {
-  return ICONS[iconName] || null;  // Vérifiez que iconName correspond à une clé de l'objet ICONS
+  return ICONS[iconName] || null; 
 }

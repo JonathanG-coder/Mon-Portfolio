@@ -12,7 +12,8 @@
   },
   "dependencies": {
     "@splidejs/splide": "^4.1.4",
-    "astro": "^4.15.12"
+    "astro": "^4.15.12",
+    "vercel": "^37.8.0"
   },
   "devDependencies": {
     "gh-pages": "^5.0.0"

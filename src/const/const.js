@@ -95,7 +95,7 @@ export const skills = [
 
 export const projects = [
   {
-    img: "../../../img/E-Sport2.png",
+    img: "/Mon-Portfolio/img/E-Sport2.png",
     title: "E-Sport",
     link: "https://github.com/JonathanG-coder/E-sport",
     description: `Présentation d'équipes de e-sports avec leurs joueurs, leur staff et le jeu auquel ils participent.`,
@@ -109,7 +109,7 @@ export const projects = [
     ],
   },
   {
-    img: "../../../img/Courses-Equestres.png",
+    img: "/Mon-Portfolio/img/Courses-Equestres.png",
     title: "Courses Équestres",  
     link: "https://github.com/JonathanG-coder/Course-Equestre",
     description: `Courses de chevaux sous Angular TypeScript.`,
@@ -123,7 +123,7 @@ export const projects = [
     ],
   },
   {
-    img: "../../../img/Divers&Shop.png",
+    img: "/Mon-Portfolio/img/Divers&Shop.png",
     title: "Divers & Shop",
     link: "https://github.com/JonathanG-coder/Divers-E-shop",
     description: `Une boutique qui présente des articles avec possibilité d'ajouter et de supprimer du panier.`, // Ajout de "de" pour la grammaire
@@ -137,7 +137,7 @@ export const projects = [
     ],
   },
   {
-    img: "../../../img/Application Meteo.png",
+    img: "/Mon-Portfolio/img/Application Meteo.png",
     title: "Application Météo", 
     link: "https://github.com/JonathanG-coder/Application-meteo-web",
     description: `Application Web simple pour vérifier l'état météorologique actuel.`,
@@ -154,7 +154,7 @@ export const projects = [
     ],
   },
   {
-    img: "../../../img/Baionako-ikastolak.png",
+    img: "/Mon-Portfolio/img/Baionako-ikastolak.png",
     title: "Baionako Ikastolak", 
     link: "https://github.com/JonathanG-coder/Baionako-Ikastolak-",
     description: `Création d'un site web pour les Ikastola de Bayonne.`,
@@ -165,7 +165,7 @@ export const projects = [
     ],
   },
   {
-    img: "../../../img/Maze.png",
+    img: "/Mon-Portfolio/img/Maze.png",
     title: "Maze",
     link: "https://github.com/JonathanG-coder/Maze",
     description: `Réalisation d'un labyrinthe dans Unity en utilisant C#.`,
@@ -179,7 +179,7 @@ export const projects = [
     ],
   },
   {
-    img: "../../../img/Angry B.png",
+    img: "/Mon-Portfolio/img/Angry B.png",
     title: "Angry Birds",
     link: "https://github.com/JonathanG-coder/Angry-Mexicano-Birds",
     description: `Réalisation d'un projet Angry Birds dans Unity en utilisant C#.`,

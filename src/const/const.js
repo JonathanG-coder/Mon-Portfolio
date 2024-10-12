@@ -1,6 +1,6 @@
 export const studies = [
   {
-    title: "Bootcamp concepteur développeur d'applcation ",
+    title: "Bootcamp concepteur développeur d'application",
     date: "03/2024 – 07/2024",
   },
   {
@@ -8,11 +8,11 @@ export const studies = [
     date: "2024",
   },
   {
-    title: "Entrepreneur numérique CMS Wordpress",
+    title: "Entrepreneur numérique CMS WordPress", 
     date: "2023",
   },
   {
-    title: "Bachelier Concepteur Développeur de Solution Digitales",
+    title: "Bachelier Concepteur Développeur de Solutions Digitales",  
     date: "2022 – 2023",
   },
   {
@@ -36,16 +36,15 @@ export const IconKeys = {
   unity: "unity",
   c: "c",
 
-  // here add more icon keys
 };
 
 export const skills = [
   {
-    title: "Html",
+    title: "HTML",  
     icon: IconKeys.html,
   },
   {
-    title: "Css",
+    title: "CSS", 
     icon: IconKeys.css,
   },
   {
@@ -58,7 +57,7 @@ export const skills = [
   },
   {
     title: "Angular",
-    icon: IconKeys.angular
+    icon: IconKeys.angular,
   },
   {
     title: "Astro",
@@ -69,19 +68,19 @@ export const skills = [
     icon: IconKeys.git,
   },
   {
-    title: "Github",
+    title: "GitHub",
     icon: IconKeys.github,
   },
   {
-    title: "React Js",
+    title: "React JS", 
     icon: IconKeys.react,
   },
   {
-    title: "Node Js",
+    title: "Node JS",  
     icon: IconKeys.nodejs,
   },
   {
-    title: "Wordpress",
+    title: "WordPress",  
     icon: IconKeys.wordpress,
   },
   {
@@ -99,7 +98,7 @@ export const projects = [
     img: "../../../img/E-Sport2.png",
     title: "E-Sport",
     link: "https://github.com/JonathanG-coder/E-sport",
-    description: `Présentation d'équipes de e-sports avec leurs joueurs, leur staff, et le jeu auquel ils participent.`,
+    description: `Présentation d'équipes de e-sports avec leurs joueurs, leur staff et le jeu auquel ils participent.`,
     technologies: [
       {
         icon: IconKeys.typeScript,
@@ -111,9 +110,9 @@ export const projects = [
   },
   {
     img: "../../../img/Courses-Equestres.png",
-    title: "Courses-Equestres",
+    title: "Courses Équestres",  
     link: "https://github.com/JonathanG-coder/Course-Equestre",
-    description: `Courses de chevaux sous Angular TypeScript.  `,
+    description: `Courses de chevaux sous Angular TypeScript.`,
     technologies: [
       {
         icon: IconKeys.typeScript,
@@ -127,7 +126,7 @@ export const projects = [
     img: "../../../img/Divers&Shop.png",
     title: "Divers & Shop",
     link: "https://github.com/JonathanG-coder/Divers-E-shop",
-    description: `Une boutique qui présente des articles avec possibilité d'ajouter et supprimer du panier.`,
+    description: `Une boutique qui présente des articles avec possibilité d'ajouter et de supprimer du panier.`, // Ajout de "de" pour la grammaire
     technologies: [
       {
         icon: IconKeys.typeScript,
@@ -139,9 +138,9 @@ export const projects = [
   },
   {
     img: "../../../img/Application Meteo.png",
-    title: "Application Meteo",
+    title: "Application Météo", 
     link: "https://github.com/JonathanG-coder/Application-meteo-web",
-    description: `application Web simple pour vérifier l'état météorologique actuel`,
+    description: `Application Web simple pour vérifier l'état météorologique actuel.`,
     technologies: [
       {
         icon: IconKeys.html,
@@ -152,14 +151,13 @@ export const projects = [
       {
         icon: IconKeys.javaScript,
       },
-
     ],
   },
   {
     img: "../../../img/Baionako-ikastolak.png",
-    title: "Baionako-Ikastolak",
+    title: "Baionako Ikastolak", 
     link: "https://github.com/JonathanG-coder/Baionako-Ikastolak-",
-    description: `Création d'un site web pour les Ikastola de Bayonne`,
+    description: `Création d'un site web pour les Ikastola de Bayonne.`,
     technologies: [
       {
         icon: IconKeys.wordpress,
@@ -170,7 +168,7 @@ export const projects = [
     img: "../../../img/Maze.png",
     title: "Maze",
     link: "https://github.com/JonathanG-coder/Maze",
-    description: `Réalisation d'un labyrinthe dans Unity en utilisant C#`,
+    description: `Réalisation d'un labyrinthe dans Unity en utilisant C#.`,
     technologies: [
       {
         icon: IconKeys.unity,
@@ -180,12 +178,11 @@ export const projects = [
       },
     ],
   },
-
   {
     img: "../../../img/Angry B.png",
     title: "Angry Birds",
     link: "https://github.com/JonathanG-coder/Angry-Mexicano-Birds",
-    description: `Réalisation d'un projet Angry Birds dans Unity en utilisant C#`,
+    description: `Réalisation d'un projet Angry Birds dans Unity en utilisant C#.`,
     technologies: [
       {
         icon: IconKeys.unity,
@@ -193,7 +190,6 @@ export const projects = [
       {
         icon: IconKeys.c,
       },
-
     ],
   },
 ];
